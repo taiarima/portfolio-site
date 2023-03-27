@@ -15,14 +15,20 @@ const Portfolio = () => {
     {
       id: 1,
       src: tengu,
+      site: "stand-in",
+      code: "https://github.com/taiarima/TenguGame",
     },
     {
       id: 2,
       src: numberGuessing,
+      site: "stand-in",
+      code: "https://github.com/taiarima/Tai-s-Number-Guessing-Game",
     },
     {
       id: 3,
       src: hzdriller,
+      site: "stand-in",
+      code: "https://github.com/taiarima/HanziDriller",
     },
   ];
 
@@ -40,7 +46,7 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {projects.map(({ id, src }) => (
+          {projects.map(({ id, src, code }) => (
             <div key={id} className="shadow-md shadow-gray-700 rounded-lg">
               <img
                 src={src}
@@ -49,10 +55,11 @@ const Portfolio = () => {
               />
               <div className="flex items-center justify-center">
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Demo
+                  Site
                 </button>
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Code{" "}
+                
+                <button  onclick={`window.location.href='https://w3docs.com';`} className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                  Code
                 </button>
               </div>
             </div>
