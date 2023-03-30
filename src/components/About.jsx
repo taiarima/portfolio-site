@@ -13,12 +13,37 @@ const About = () => {
           </p>
         </div>
         <p className="text-xl mt-10">
-          This is my about section where I tell you all about myself.
+          As a self-taught programmer, I have developed a strong foundation in
+          programming concepts and have completed several projects demonstrating
+          my ability to apply these concepts in real-world scenarios. With a
+          passion for problem-solving and a drive to learn and grow, I am eager
+          to take on new challenges and contribute my skills to a dynamic
+          programming team.
         </p>
         <br />
 
         <p className="text-xl">
-          I think it would really benefit you to hire me. Seriously.
+          In addition to my programming skills, I have gained a unique
+          perspective and problem-solving approach from my diverse experiences
+          working as a linguist, military intelligence analyst, and molecular
+          biology researcher. These experiences have honed my skills in
+          communication, collaboration, and adaptability, which I am excited to
+          bring to the world of software development.
+        </p>
+        <br />
+        <p className="text-xl">
+          Feel free to contact me via{" "}
+          <a className="text-blue-500" href="mailto:tai.arima@colorado.edu">
+            email
+          </a>
+          ,{" "}
+          <a
+            href="https://www.linkedin.com/in/taiarima/"
+            className="text-blue-500"
+          >
+            LinkedIn
+          </a>{" "}
+          , or the form below to discuss any opportunities or projects.
         </p>
       </div>
     </div>

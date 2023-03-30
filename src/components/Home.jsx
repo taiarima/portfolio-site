@@ -12,10 +12,12 @@ const Home = () => {
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
-            I'm a Junior Developer
+            Hi, I'm Tai
           </h2>
-          <p className="text-gray-400 py-4 max-w-md">
-            I have all kinds of skills.
+          <p className="text-gray-400 py-4 pr-4 max-w-md">
+            I am self-taught software developer with a passion for
+            problem-solving and a background in linguistics and molecular
+            biology. Download my resume to view my complete profile!
           </p>
           <div>
             <Link

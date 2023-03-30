@@ -57,8 +57,11 @@ const Portfolio = () => {
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
                   Site
                 </button>
-                
-                <button  onclick={`window.location.href='https://w3docs.com';`} className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+
+                <button
+                  onClick={() => window.open(code, "_blank")}
+                  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                >
                   Code
                 </button>
               </div>
