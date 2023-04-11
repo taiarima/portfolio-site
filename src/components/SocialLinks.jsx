@@ -40,7 +40,7 @@ const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "/logo192.png",
+      href: "/Tai Arima CV April 2023.pdf",
       style: "rounded-br-md",
       download: true,
     },

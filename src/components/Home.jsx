@@ -15,7 +15,7 @@ const Home = () => {
             Hi, I'm Tai
           </h2>
           <p className="text-gray-400 py-4 pr-4 max-w-md">
-            I am self-taught software developer with a passion for
+            I am a self-taught software developer with a passion for
             problem-solving and a background in linguistics and molecular
             biology. Download my resume to view my complete profile!
           </p>
