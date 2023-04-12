@@ -19,7 +19,7 @@ const Education = () => {
       alt: "University of Colorado Boulder Logo",
       org: "University of Colorado Boulder",
       suppText:
-        "Bachelor of Arts in Molecular, Cellular, and Developmental Biology\n Graduated Summa Cum Laude",
+        "Bachelor of Arts in Molecular, Cellular, and Developmental Biology, Summa Cum Laude",
     },
     {
       id: 3,
@@ -44,7 +44,7 @@ const Education = () => {
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-4 ">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
-            Education and Certifications
+            Education and Certificates
           </p>
         </div>
         <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-8 text-center py-4 px-12 sm:px-0">

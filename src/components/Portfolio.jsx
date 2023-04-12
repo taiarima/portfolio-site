@@ -15,18 +15,21 @@ const Portfolio = () => {
     {
       id: 1,
       src: tengu,
+      alt: "Tengu Game Preview",
       site: "stand-in",
       code: "https://github.com/taiarima/TenguGame",
     },
     {
       id: 2,
       src: numberGuessing,
+      alt: "Number Guessing Game Preview",
       site: "stand-in",
       code: "https://github.com/taiarima/Tai-s-Number-Guessing-Game",
     },
     {
       id: 3,
       src: hzdriller,
+      alt: "HanziDriller App Preview",
       site: "stand-in",
       code: "https://github.com/taiarima/HanziDriller",
     },
@@ -46,11 +49,11 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {projects.map(({ id, src, code }) => (
+          {projects.map(({ id, src, alt, code }) => (
             <div key={id} className="shadow-md shadow-gray-700 rounded-lg">
               <img
                 src={src}
-                alt=""
+                alt={alt}
                 className="rounded-md duration-200 hover:scale-105 object-cover sm:h-48 w-96"
               />
               <div className="flex items-center justify-center">
