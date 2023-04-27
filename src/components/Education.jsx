@@ -39,7 +39,7 @@ const Education = () => {
   return (
     <div
       name="education"
-      className="w-full h-screen bg-gradient-to-b from-black via-gray-800 to-black text-white pb-40 pt-40"
+      className="w-full bg-gradient-to-b from-black via-gray-800 to-black text-white pb-40 pt-40"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-4 ">
