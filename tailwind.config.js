@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      screens: {
+        wide: { min: "1125px" },
+      },
+    },
     fontFamily: {
       signature: ["Philosopher"],
     },

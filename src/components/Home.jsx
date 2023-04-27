@@ -17,7 +17,14 @@ const Home = () => {
           <p className="text-gray-400 py-4 pr-4 max-w-md">
             I am a self-taught software developer with a passion for
             problem-solving and a background in linguistics and molecular
-            biology. Download my resume to view my complete profile!
+            biology. Download my{" "}
+            <a
+              className="font-bold text-white"
+              href="/Tai Arima CV April 2023.pdf"
+            >
+              resume
+            </a>{" "}
+            to view my complete profile!
           </p>
           <div>
             <Link
@@ -38,7 +45,7 @@ const Home = () => {
           <img
             src={HeroImage}
             alt="Tai Arima"
-            className="rounded-2xl mx-auto w-2/3 md:w-full"
+            className="rounded-2xl mx-auto w-2/3 md:w-full pb-4"
           />
         </div>
       </div>
