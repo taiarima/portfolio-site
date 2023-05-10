@@ -8,6 +8,7 @@ import React from "react";
 import tengu from "../assets/portfolio/tengu-preview-old.png";
 import numberGuessing from "../assets/portfolio/number-guessing-game.png";
 import hzdriller from "../assets/portfolio/hzdriller.png";
+import fandeng from "../assets/portfolio/fandengpreview.png";
 
 const Portfolio = () => {
   // add links to the projects and change images to own
@@ -23,7 +24,7 @@ const Portfolio = () => {
       id: 2,
       src: numberGuessing,
       alt: "Number Guessing Game Preview",
-      site: "stand-in",
+      site: "https://taiarima.github.io/Tai-s-Number-Guessing-Game/",
       code: "https://github.com/taiarima/Tai-s-Number-Guessing-Game",
     },
     {
@@ -33,6 +34,13 @@ const Portfolio = () => {
       site: "stand-in",
       code: "https://github.com/taiarima/HanziDriller",
     },
+    // {
+    //   id: 4,
+    //   src: fandeng,
+    //   alt: "Fan Deng Tribute Site",
+    //   site: "https://taiarima.github.io/tribute-project/",
+    //   code: "https://github.com/taiarima/tribute-project",
+    // },
   ];
 
   return (
