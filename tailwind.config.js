@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       screens: {
         wide: { min: "1125px" },
+        md: "800px",
       },
     },
     fontFamily: {
