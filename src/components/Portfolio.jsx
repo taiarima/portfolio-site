@@ -1,23 +1,17 @@
 import React from "react";
-// import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
-// import installNode from "../assets/portfolio/installNode.jpg";
-// import navbar from "../assets/portfolio/navbar.jpg";
-// import reactParallax from "../assets/portfolio/reactParallax.jpg";
-// import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
-// import reactWeather from "../assets/portfolio/reactWeather.jpg";
 import tengu from "../assets/portfolio/tengu-preview-old.png";
 import numberGuessing from "../assets/portfolio/number-guessing-game.png";
 import hzdriller from "../assets/portfolio/hzdriller.png";
 import fandeng from "../assets/portfolio/fandengpreview.png";
+import hanziTestApp from "../assets/portfolio/hanzi-ability-test.png";
 
 const Portfolio = () => {
-  // add links to the projects and change images to own
   const projects = [
     {
       id: 1,
       src: tengu,
       alt: "Tengu Game Preview",
-      site: "stand-in",
+      site: "https://taiarima.github.io/TenguGame/",
       code: "https://github.com/taiarima/TenguGame",
     },
     {
@@ -31,16 +25,23 @@ const Portfolio = () => {
       id: 3,
       src: hzdriller,
       alt: "HanziDriller App Preview",
-      site: "stand-in",
+      site: "https://github.com/taiarima/HanziDriller",
       code: "https://github.com/taiarima/HanziDriller",
     },
-    // {
-    //   id: 4,
-    //   src: fandeng,
-    //   alt: "Fan Deng Tribute Site",
-    //   site: "https://taiarima.github.io/tribute-project/",
-    //   code: "https://github.com/taiarima/tribute-project",
-    // },
+    {
+      id: 4,
+      src: fandeng,
+      alt: "Fan Deng Tribute Site",
+      site: "https://taiarima.github.io/tribute-project/",
+      code: "https://github.com/taiarima/tribute-project",
+    },
+    {
+      id: 5,
+      src: hanziTestApp,
+      alt: "Hanzi Ability Test Preview",
+      site: "https://taiarima.github.io/hanzi-evaluator/",
+      code: "https://github.com/taiarima/hanzi-evaluator",
+    },
   ];
 
   return (
@@ -57,7 +58,7 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {projects.map(({ id, src, alt, code }) => (
+          {projects.map(({ id, src, alt, site, code }) => (
             <div key={id} className="shadow-md shadow-gray-700 rounded-lg">
               <img
                 src={src}
@@ -65,9 +66,12 @@ const Portfolio = () => {
                 className="rounded-md duration-200 hover:scale-105 object-cover sm:h-48 w-96"
               />
               <div className="flex items-center justify-center">
-                {/* <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                <button
+                  onClick={() => window.open(site, "_blank")}
+                  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                >
                   Site
-                </button> */}
+                </button>
 
                 <button
                   onClick={() => window.open(code, "_blank")}
