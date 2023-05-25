@@ -4,6 +4,7 @@ import numberGuessing from "../assets/portfolio/number-guessing-game.png";
 import hzdriller from "../assets/portfolio/hzdriller.png";
 import fandeng from "../assets/portfolio/fandengpreview.png";
 import hanziTestApp from "../assets/portfolio/hanzi-ability-test.png";
+import kanjiTestApp from "../assets/portfolio/kanjiTestApp.png";
 
 const Portfolio = () => {
   const projects = [
@@ -41,6 +42,13 @@ const Portfolio = () => {
       alt: "Hanzi Ability Test Preview",
       site: "https://taiarima.github.io/hanzi-evaluator/",
       code: "https://github.com/taiarima/hanzi-evaluator",
+    },
+    {
+      id: 6,
+      src: kanjiTestApp,
+      alt: "Kanji Knowledge Assessment Tool Preview",
+      site: "https://taiarima.github.io/kanji-kat/",
+      code: "https://github.com/taiarima/kanji-kat",
     },
   ];
 
