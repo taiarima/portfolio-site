@@ -1,10 +1,9 @@
 import React from "react";
 import tengu from "../assets/portfolio/tengu-preview-old.png";
-import numberGuessing from "../assets/portfolio/number-guessing-game.png";
 import hzdriller from "../assets/portfolio/hzdriller.png";
-import fandeng from "../assets/portfolio/fandengpreview.png";
 import hanziTestApp from "../assets/portfolio/hanzi-ability-test.png";
 import kanjiTestApp from "../assets/portfolio/kanjiTestApp.png";
+import talkTalk from "../assets/portfolio/talkTalk.png";
 
 const Portfolio = () => {
   const projects = [
@@ -17,38 +16,31 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      src: numberGuessing,
-      alt: "Number Guessing Game Preview",
-      site: "https://taiarima.github.io/Tai-s-Number-Guessing-Game/",
-      code: "https://github.com/taiarima/Tai-s-Number-Guessing-Game",
-    },
-    {
-      id: 3,
       src: hzdriller,
       alt: "HanziDriller App Preview",
       site: "https://github.com/taiarima/HanziDriller",
       code: "https://github.com/taiarima/HanziDriller",
     },
     {
-      id: 4,
-      src: fandeng,
-      alt: "Fan Deng Tribute Site",
-      site: "https://taiarima.github.io/tribute-project/",
-      code: "https://github.com/taiarima/tribute-project",
-    },
-    {
-      id: 5,
+      id: 3,
       src: hanziTestApp,
       alt: "Hanzi Ability Test Preview",
       site: "https://taiarima.github.io/hanzi-evaluator/",
       code: "https://github.com/taiarima/hanzi-evaluator",
     },
     {
-      id: 6,
+      id: 4,
       src: kanjiTestApp,
       alt: "Kanji Knowledge Assessment Tool Preview",
       site: "https://taiarima.github.io/kanji-kat/",
       code: "https://github.com/taiarima/kanji-kat",
+    },
+    {
+      id: 5,
+      src: talkTalk,
+      alt: "Type and Learn Korean App Preview",
+      site: "https://taiarima.github.io/type-and-learn-korean/",
+      code: "https://github.com/taiarima/type-and-learn-korean",
     },
   ];
 
