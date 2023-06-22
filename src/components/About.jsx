@@ -27,7 +27,7 @@ const About = () => {
           both as a teacher and a student thinking of the best ways to teach and
           learn, and it's a subject that never ceases to fascinate me. In terms
           of personal interests, I am an avid unicyclist, an ardent reader of
-          Japanese literature, and a dedicated fan of miniature painting.
+          Japanese literature, and a fan of miniature painting.
         </p>
         <br />
         <p className="text-xl">
