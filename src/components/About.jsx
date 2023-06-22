@@ -13,22 +13,21 @@ const About = () => {
           </p>
         </div>
         <p className="text-xl mt-10">
-          As a self-taught programmer, I have developed a strong foundation in
-          programming concepts and have completed several projects demonstrating
-          my ability to apply these concepts in real-world scenarios. With a
-          passion for problem-solving and a drive to learn and grow, I am eager
-          to take on new challenges and contribute my skills to a dynamic
-          programming team.
+          I am a self-taught programmer with a passion for problem-solving and a
+          drive to learn and grow. I have gained a unique perspective from my
+          diverse experiences working as a linguist, military intelligence
+          analyst, and molecular biology researcher. Through these roles, I have
+          honed skills in communication, collaboration, and adaptability, all of
+          which I am excited to bring to the world of software development.
         </p>
         <br />
-
         <p className="text-xl">
-          In addition to my programming skills, I have gained a unique
-          perspective and problem-solving approach from my diverse experiences
-          working as a linguist, military intelligence analyst, and molecular
-          biology researcher. These experiences have honed my skills in
-          communication, collaboration, and adaptability, which I am excited to
-          bring to the world of software development.
+          Aside from coding and building applications, my primary interests are
+          foreign language learning, science, and pedagogy. I have spent years
+          both as a teacher and a student thinking of the best ways to teach and
+          learn, and it's a subject that never ceases to fascinate me. In terms
+          of personal interests, I am an avid unicyclist, an ardent reader of
+          Japanese literature, and a dedicated fan of miniature painting.
         </p>
         <br />
         <p className="text-xl">
