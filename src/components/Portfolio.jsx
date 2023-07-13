@@ -4,6 +4,7 @@ import hzdriller from "../assets/portfolio/hzdriller.png";
 import hanziTestApp from "../assets/portfolio/hanzi-ability-test.png";
 import kanjiTestApp from "../assets/portfolio/kanjiTestApp.png";
 import talkTalk from "../assets/portfolio/talkTalk.png";
+import mangaMap from "../assets/portfolio/manga_map_img.png";
 
 const Portfolio = () => {
   const projects = [
@@ -41,6 +42,13 @@ const Portfolio = () => {
       alt: "Type and Learn Korean App Preview",
       site: "https://taiarima.github.io/type-and-learn-korean/",
       code: "https://github.com/taiarima/type-and-learn-korean",
+    },
+    {
+      id: 6,
+      src: mangaMap,
+      alt: "Manga Map App Preview",
+      site: "https://taiarima.github.io/manga-map/",
+      code: "https://github.com/taiarima/manga-map",
     },
   ];
 
