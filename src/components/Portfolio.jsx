@@ -5,6 +5,7 @@ import hanziTestApp from "../assets/portfolio/hanzi-ability-test.png";
 import kanjiTestApp from "../assets/portfolio/kanjiTestApp.png";
 import talkTalk from "../assets/portfolio/talkTalk.png";
 import mangaMap from "../assets/portfolio/manga_map_img.png";
+import wirgoals from "../assets/portfolio/wirgoals.png";
 
 const Portfolio = () => {
   const projects = [
@@ -49,6 +50,13 @@ const Portfolio = () => {
       alt: "Manga Map App Preview",
       site: "https://taiarima.github.io/manga-map/",
       code: "https://github.com/taiarima/manga-map",
+    },
+    {
+      id: 7,
+      src: wirgoals,
+      alt: "Wirgoals App Preview",
+      site: "https://taiarima.github.io/wir-goals/",
+      code: "https://github.com/taiarima/wir-goals",
     },
   ];
 
