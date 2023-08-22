@@ -10,13 +10,13 @@ import langQuiz from "../assets/portfolio/lang-quiz-thumbnail.png";
 
 const Portfolio = () => {
   const projects = [
-    {
-      id: 1,
-      src: tengu,
-      alt: "Tengu Game Preview",
-      site: "https://taiarima.github.io/TenguGame/",
-      code: "https://github.com/taiarima/TenguGame",
-    },
+    // {
+    //   id: 1,
+    //   src: tengu,
+    //   alt: "Tengu Game Preview",
+    //   site: "https://taiarima.github.io/TenguGame/",
+    //   code: "https://github.com/taiarima/TenguGame",
+    // },
     {
       id: 2,
       src: hzdriller,
