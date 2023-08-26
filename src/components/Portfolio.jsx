@@ -1,5 +1,5 @@
 import React from "react";
-import tengu from "../assets/portfolio/tengu-preview-old.png";
+// import tengu from "../assets/portfolio/tengu-preview-old.png";
 import hzdriller from "../assets/portfolio/hzdriller.png";
 import hanziTestApp from "../assets/portfolio/hanzi-ability-test.png";
 import kanjiTestApp from "../assets/portfolio/kanjiTestApp.png";
