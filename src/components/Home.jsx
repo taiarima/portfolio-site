@@ -21,7 +21,7 @@ const Home = () => {
             biology. Download my{" "}
             <a
               className="font-bold text-white"
-              href="/Tai Arima CV April 2023.pdf"
+              href="/Tai Arima Resume September 2023.pdf"
             >
               resume
             </a>{" "}
