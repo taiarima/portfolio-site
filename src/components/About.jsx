@@ -13,12 +13,12 @@ const About = () => {
           </p>
         </div>
         <p className="text-xl mt-10">
-          I am a self-taught programmer with a passion for problem-solving and a
-          drive to learn and grow. I have gained a unique perspective from my
-          diverse experiences working as a linguist, military intelligence
-          analyst, and molecular biology researcher. Through these roles, I have
-          honed skills in communication, collaboration, and adaptability, all of
-          which I am excited to bring to the world of software development.
+          I am a programmer with a passion for problem-solving and a drive to
+          learn and grow. I have gained a unique perspective from my diverse
+          experiences working as a linguist, military intelligence analyst, and
+          molecular biology researcher. Through these roles, I have honed skills
+          in communication, collaboration, and adaptability, all of which I am
+          excited to bring to the world of software development.
         </p>
         <br />
         <p className="text-xl">
