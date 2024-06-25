@@ -47,15 +47,15 @@ const Education = () => {
             Education and Certificates
           </p>
         </div>
-        <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-8 text-center py-4 px-12 sm:px-0">
+        <div className="w-full grid grid-cols-1 md:grid-cols-4 sm:grid-cols-2 gap-8 text-center py-4 px-12 sm:px-0">
           {education.map(({ id, src, alt, org, suppText }) => (
             <div key={id} className="shadow-md shadow-gray-700 rounded-lg">
               <img
                 src={src}
                 alt={alt}
-                className="rounded-md duration-200 hover:scale-105 object-cover sm:h-48 w-96"
+                className="rounded-md duration-200 hover:scale-105 object-cover sm:h-48 w-96 mx-auto"
               />
-              <div className="flex flex-col items-center justify-center">
+              <div className="flex flex-col items-center justify-center p-2">
                 <p className="text-xl font-bold">{org}</p>
                 <p>{suppText}</p>
               </div>

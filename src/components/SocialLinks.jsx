@@ -40,7 +40,7 @@ const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "/Tai Arima Resume Feb 2024.pdf",
+      href: "/Tai Arima Resume April 2024.pdf",
       style: "rounded-br-md",
       download: true,
     },
