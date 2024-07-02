@@ -33,13 +33,6 @@ const Portfolio = () => {
       code: "https://github.com/taiarima/hanzi-evaluator",
     },
     {
-      id: 4,
-      src: kanjiTestApp,
-      alt: "Kanji Knowledge Assessment Tool Preview",
-      site: "https://taiarima.github.io/kanji-kat/",
-      code: "https://github.com/taiarima/kanji-kat",
-    },
-    {
       id: 5,
       src: talkTalk,
       alt: "Type and Learn Korean App Preview",
