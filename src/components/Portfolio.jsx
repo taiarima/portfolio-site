@@ -1,19 +1,10 @@
 import React from "react";
-// import tengu from "../assets/portfolio/tengu-preview-old.png";
 import hzdriller from "../assets/portfolio/hzdriller.png";
 import hanziTestApp from "../assets/portfolio/hanzi-ability-test.png";
 import talkTalk from "../assets/portfolio/talkTalk.png";
 import mangaMap from "../assets/portfolio/manga_map_img.png";
 import wirgoals from "../assets/portfolio/wirgoals.png";
 import langQuiz from "../assets/portfolio/lang-quiz-thumbnail.png";
-
-// {
-//   id: 1,
-//   src: tengu,
-//   alt: "Tengu Game Preview",
-//   site: "https://taiarima.github.io/TenguGame/",
-//   code: "https://github.com/taiarima/TenguGame",
-// },
 
 const Portfolio = () => {
   const projects = [
